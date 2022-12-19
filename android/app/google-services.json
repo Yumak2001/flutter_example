@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "359575143348",
+    "project_id": "faneron-app",
+    "storage_bucket": "faneron-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359575143348:android:3040c530aa29dd48e7e8e1",
+        "android_client_info": {
+          "package_name": "ru.faneron.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "359575143348-8b5h91ubnnoqd1b0qlhk6h3hc6mlgqbj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCP9G9T6q714XFv8Me7v-TdzPdCJ8b38vU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "359575143348-8b5h91ubnnoqd1b0qlhk6h3hc6mlgqbj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

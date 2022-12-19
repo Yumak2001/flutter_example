@@ -1,0 +1,147 @@
+name: faneron_mobile
+description: Faneron Mobile
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 0.0.1+16
+
+environment:
+  sdk: ">=2.14.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # locale
+  klocalizations_flutter: ^0.0.4
+
+  # architecture
+  flutter_bloc: ^8.0.1
+  get_it: ^7.2.0
+  injectable: ^1.5.3
+  rxdart: ^0.27.3
+  analyzer: ^3.0.0
+  provider: ^6.0.1
+  hive: ^2.2.1
+  hive_flutter: ^1.1.0
+
+  # utils
+  cupertino_icons: ^1.0.4
+  sentry_flutter: ^6.2.2
+  logger: ^1.1.0
+  dio_log: ^2.0.2
+  inspector: ^1.1.1
+  flutter_form_bloc: ^0.30.1
+  built_value: ^8.1.0
+  path_provider: ^2.0.10
+  json_annotation: ^4.5.0
+  json_serializable: ^6.2.0
+  device_calendar: ^4.2.0
+  fluttertoast: ^8.0.9
+  flutter_smart_dialog: 4.0.9
+
+  # images
+  image_picker: 0.8.0+4 #^0.8.5+3
+  image_cropper: ^2.0.3
+
+  # url
+  url_launcher: ^6.1.2
+
+  # network
+  dio: ^4.0.6
+  pretty_dio_logger: ^1.1.1
+  dio_cache_interceptor: ^3.0.3
+  webview_flutter: ^2.8.0
+  flutter_html: ^2.2.1
+
+  # ui
+  flutter_native_splash: ^2.1.6
+  flutter_svg: any
+  drop_cap_text: ^1.1.3
+  dotted_border: ^2.0.0+1
+  fancy_shimmer_image: ^2.0.2
+  cached_network_image: ^3.2.0
+  carousel_slider: ^4.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  hive_generator: ^1.1.3
+  build_runner: ^2.1.10
+  built_value_generator: ^8.1.0
+  injectable_generator: ^1.2.0
+
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/profile/
+
+  fonts:
+    - family: icons
+      fonts:
+        - asset: icons/fonts/icomoon.ttf
+
+    - family: DrukCyr
+      fonts:
+        - asset: fonts/druk_cyr_collection/druk_cyr/medium.otf
+        - asset: fonts/druk_cyr_collection/druk_cyr/medium.otf
+          weight: 500
+        - asset: fonts/druk_cyr_collection/druk_cyr/bold.otf
+          weight: 700
+        - asset: fonts/druk_cyr_collection/druk_cyr/super.otf
+          weight: 900
+        - asset: fonts/druk_cyr_collection/druk_cyr/medium_italic.otf
+          weight: 500
+          style: italic
+        - asset: fonts/druk_cyr_collection/druk_cyr/bold_italic.otf
+          weight: 700
+          style: italic
+        - asset: fonts/druk_cyr_collection/druk_cyr/super_italic.otf
+          weight: 900
+          style: italic
+
+    - family: DrukTextCyr
+      fonts:
+        - asset: fonts/druk_cyr_collection/druk_text_cyr/medium.otf
+        - asset: fonts/druk_cyr_collection/druk_text_cyr/medium.otf
+          weight: 500
+        - asset: fonts/druk_cyr_collection/druk_text_cyr/bold.otf
+          weight: 700
+        - asset: fonts/druk_cyr_collection/druk_text_cyr/super.otf
+          weight: 900
+        - asset: fonts/druk_cyr_collection/druk_text_cyr/medium_italic.otf
+          weight: 500
+          style: italic
+        - asset: fonts/druk_cyr_collection/druk_text_cyr/bold_italic.otf
+          weight: 700
+          style: italic
+        - asset: fonts/druk_cyr_collection/druk_text_cyr/super_italic.otf
+          weight: 900
+          style: italic
+
+    - family: Pragmatica
+      fonts:
+        - asset: fonts/pragmatica/pragmatica_condensed_book.ttf
+        - asset: fonts/pragmatica/pragmatica_condensed_extra_light.ttf
+          weight: 300
+        - asset: fonts/pragmatica/pragmatica_condensed_book_italic.ttf
+          style: italic
+
+    - family: BebasNeue
+      fonts:
+        - asset: fonts/bebas_neue/bebas_neue_regular.ttf
+        - asset: fonts/bebas_neue/bebas_neue_bold.ttf
+          weight: 700
+        - asset: fonts/bebas_neue/bebas_neue_regular.ttf
+          weight: 400
+        - asset: fonts/bebas_neue/bebas_neue_light.ttf
+          weight: 300
+
+

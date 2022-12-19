@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?s6rbcw');
+  src:  url('fonts/icomoon.eot?s6rbcw#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?s6rbcw') format('truetype'),
+    url('fonts/icomoon.woff?s6rbcw') format('woff'),
+    url('fonts/icomoon.svg?s6rbcw#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-location-svgrepo-com-8:before {
+  content: "\e91b";
+}
+.icon-bi_ticket-perforated:before {
+  content: "\e91a";
+}
+.icon-download:before {
+  content: "\e919";
+}
+.icon-calendar:before {
+  content: "\e917";
+}
+.icon-clock:before {
+  content: "\e918";
+}
+.icon-Map-location:before {
+  content: "\e900";
+}
+.icon-Caret-down:before {
+  content: "\e901";
+}
+.icon-Caret-left:before {
+  content: "\e902";
+}
+.icon-Caret-right:before {
+  content: "\e903";
+}
+.icon-Caret-up:before {
+  content: "\e904";
+}
+.icon-Check:before {
+  content: "\e905";
+}
+.icon-Cross:before {
+  content: "\e906";
+}
+.icon-Edit-alt:before {
+  content: "\e907";
+}
+.icon-Expand:before {
+  content: "\e908";
+}
+.icon-Layout:before {
+  content: "\e909";
+}
+.icon-Login:before {
+  content: "\e90a";
+}
+.icon-Logout:before {
+  content: "\e90b";
+}
+.icon-Menu:before {
+  content: "\e90c";
+}
+.icon-Plus:before {
+  content: "\e90d";
+}
+.icon-Search:before {
+  content: "\e90e";
+}
+.icon-Settings-alt:before {
+  content: "\e90f";
+}
+.icon-Settings:before {
+  content: "\e910";
+}
+.icon-Flask:before {
+  content: "\e911";
+}
+.icon-Home:before {
+  content: "\e912";
+}
+.icon-Palette:before {
+  content: "\e913";
+}
+.icon-Pulse:before {
+  content: "\e914";
+}
+.icon-Camera:before {
+  content: "\e915";
+}
+.icon-User:before {
+  content: "\e916";
+}
